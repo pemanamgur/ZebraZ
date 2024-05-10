@@ -1,5 +1,6 @@
 import { Link, Outlet, useNavigate } from 'react-router-dom'
 import { ClerkProvider, SignedIn, SignedOut, UserButton } from '@clerk/clerk-react'
+import IndexPage from '../routes'
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 
@@ -15,7 +16,9 @@ export default function RootLayout() {
       <header className="header">
         <div>
           <div>
-            <p>Clerk + React + React Router App</p>
+            
+           <IndexPage />  
+           {/* Index Page */}
           </div>
           <SignedIn>
             <UserButton afterSignOutUrl='/sign-in' />
