@@ -27,16 +27,15 @@ const router = createBrowserRouter([
   {
     element: <RootLayout />,
     children: [
-      { path: "/", element: <IndexPage /> },
+      { path: "/", element: <Home/> },
       { path: "/sign-in/*", element: <SignInPage /> },
       { path: "/sign-up/*", element: <SignUpPage /> },
       {
         path: "/dashboard",
         element: <DashboardLayout />,
         children: [
-          // { path: "/", element: <IndexPage /> },
-          { path: "/dashboard", element: <DashboardPage /> },
           { path: "/dashboard/invoices", element: <InvoicesPage /> },
+          { path: "/dashboard", element: <Home /> },
           { path: "/dashboard/photos" , element: <Photos />},
           { path: "/dashboard/pricing" , element: <Pricing />},
           { path: "/dashboard/videos" , element: <Videos />},
