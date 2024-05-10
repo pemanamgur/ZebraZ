@@ -9,7 +9,7 @@ import DashboardLayout from './layouts/dashboard-layout'
 
 // Import the components
 import IndexPage from './routes'
-import ContactPage from './routes/contact'
+// import ContactPage from './routes/contact'
 import SignInPage from './routes/sign-in'
 import SignUpPage from './routes/sign-up'
 import DashboardPage from './routes/dashboard'
@@ -21,20 +21,20 @@ import Pricing from './Pages/Pricing'
 import Videos from './Pages/Videos'
 import Home from './Pages/Home'
 import Review from './Pages/Review'
+import Contact from './routes/contact'
 
 const router = createBrowserRouter([
   {
     element: <RootLayout />,
     children: [
       { path: "/", element: <IndexPage /> },
-      // { path: "/", element: <Home /> },
-      { path: "/contact", element: <ContactPage /> },
       { path: "/sign-in/*", element: <SignInPage /> },
       { path: "/sign-up/*", element: <SignUpPage /> },
       {
+        path: "/dashboard",
         element: <DashboardLayout />,
-        path: "dashboard",
         children: [
+          // { path: "/", element: <IndexPage /> },
           { path: "/dashboard", element: <DashboardPage /> },
           { path: "/dashboard/invoices", element: <InvoicesPage /> },
           { path: "/dashboard/photos" , element: <Photos />},
@@ -42,6 +42,7 @@ const router = createBrowserRouter([
           { path: "/dashboard/videos" , element: <Videos />},
           { path: "/dashboard/home" , element: <Home />},
           { path: "/dashboard/review" , element: <Review/>},
+          { path: "/dashboard/contact", element: <Contact /> },
           
         ]
       }

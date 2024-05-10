@@ -1,7 +1,11 @@
 import React from 'react'
+import IndexPage from '../routes'
 
 function Pricing() {
   return (
+    <>
+    <IndexPage />
+  
     <section className="z-0 relative overflow-hidden py-10">
     <div className="relative mx-auto max-w-7xl px-4">
       <div className="mx-auto mb-24 max-w-2xl text-center lg:max-w-5xl">
@@ -170,6 +174,7 @@ function Pricing() {
       </div>
     </div>
   </section>
+  </>
   )
 }
 

@@ -15,20 +15,17 @@ export default function RootLayout() {
     <ClerkProvider navigate={navigate} publishableKey={PUBLISHABLE_KEY}>
       <header className="header">
         <div>
-          <div>
-            
-           <IndexPage />  
-           {/* Index Page */}
-          </div>
-          <SignedIn>
-            <UserButton afterSignOutUrl='/sign-in' />
+       
+          {/* <SignedIn>
+            <UserButton afterSignOutUrl='/sign-in'/>
           </SignedIn>
           <SignedOut>
             <Link to="/sign-in">Sign In</Link>
-          </SignedOut>
+          </SignedOut> */}
         </div>
       </header>
       <main>
+        {/* <IndexPage /> */}
         <Outlet />
       </main>
     </ClerkProvider>

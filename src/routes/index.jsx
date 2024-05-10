@@ -3,6 +3,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 import { Link } from 'react-router-dom';
 import clsx from 'clsx';
+import { ClerkProvider, SignedIn, SignedOut, UserButton } from '@clerk/clerk-react'
+
 
 
 export default function IndexPage() {
@@ -24,7 +26,7 @@ export default function IndexPage() {
     },
     {
        label : "Contact",
-       href : "/contact"
+       href : "/dashboard/contact"
     },
     {
        label : "Pricing",
@@ -103,10 +105,15 @@ export default function IndexPage() {
      
       <section className='flex items-center rounded-full '>
           {/* img */}
-          <img src="https://static.wixstatic.com/media/593ea9_e30ac9b5ca484e318a2d25a832c7d680~mv2.png/v1/fill/w_438,h_779,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/593ea9_e30ac9b5ca484e318a2d25a832c7d680~mv2.png" alt=""
+          {/* <img src="https://static.wixstatic.com/media/593ea9_e30ac9b5ca484e318a2d25a832c7d680~mv2.png/v1/fill/w_438,h_779,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/593ea9_e30ac9b5ca484e318a2d25a832c7d680~mv2.png" alt=""
           className=' w-16 h-16 object-cover rounded-full  '
-          style={{borderRadius : '50%'}} />
-       
+          style={{borderRadius : '50%'}} /> */}
+         <SignedIn>
+            <UserButton afterSignOutUrl='/sign-in'/>
+          </SignedIn>
+          <SignedOut>
+            <Link to="/sign-in">Sign In</Link>
+          </SignedOut>
       </section>
     </nav>
     <hr className='lg:mx-24' />

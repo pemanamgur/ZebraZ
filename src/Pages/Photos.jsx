@@ -1,4 +1,5 @@
 import React from 'react'
+import IndexPage from '../routes'
 
 function Photos() {
 
@@ -33,7 +34,9 @@ function Photos() {
  ]
 
   return (
-  
+  <>
+  <IndexPage />
+ 
 
 
     <div className="container mx-auto px-4 py-8">
@@ -45,7 +48,7 @@ function Photos() {
       ))}
     </div>
   </div>
- 
+  </>
   )
 }
 

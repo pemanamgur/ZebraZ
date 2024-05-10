@@ -1,10 +1,12 @@
 import React from 'react'
 import ReviewC from '../components/ReviewC'
+import IndexPage from '../routes'
 
 
 function Review() {
   return (
 <>
+<IndexPage />
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
       <div className="max-w-4xl w-full p-4 md:p-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

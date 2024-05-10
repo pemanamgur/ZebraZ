@@ -2,11 +2,13 @@ import React from 'react'
 import Testimonial from '../components/Testimonial'
 import HomeImage from '../components/HomeImage'
 import HomeTop from '../components/HomeTop'
+import IndexPage from '../routes'
 
 function Home() {
   return (
     <>
     <main>
+      <IndexPage/>
       <HomeTop />
    <HomeImage />
    <div>
