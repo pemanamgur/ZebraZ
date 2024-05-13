@@ -116,7 +116,7 @@ export default function IndexPage() {
           </SignedOut>
       </section>
     </nav>
-    <hr className='lg:mx-24' />
+    <hr className='lg:mx-24 ' />
    </main>
     </>
   )

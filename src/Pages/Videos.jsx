@@ -1,5 +1,6 @@
 import React from 'react'
 import IndexPage from '../routes'
+import Footer from '../components/Footer'
 
 function Videos() {
 
@@ -57,6 +58,7 @@ function Videos() {
       ))}
     </div>
   </div>
+  <Footer/>
   </>
   )
 }

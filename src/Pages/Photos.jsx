@@ -1,5 +1,6 @@
 import React from 'react'
 import IndexPage from '../routes'
+import Footer from '../components/Footer'
 
 function Photos() {
 
@@ -48,6 +49,7 @@ function Photos() {
       ))}
     </div>
   </div>
+  <Footer/>
   </>
   )
 }

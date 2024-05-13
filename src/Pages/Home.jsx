@@ -3,6 +3,7 @@ import Testimonial from '../components/Testimonial'
 import HomeImage from '../components/HomeImage'
 import HomeTop from '../components/HomeTop'
 import IndexPage from '../routes'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
@@ -33,7 +34,7 @@ function Home() {
     </div>
     <Testimonial />
     </main>
- 
+   <Footer />
    </>
   )
 }

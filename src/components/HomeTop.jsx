@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function HomeTop() {
   return (
@@ -38,12 +39,16 @@ function HomeTop() {
           </div>
         </div>
         <div className="mt-8 text-center md:mt-16">
+        <NavLink
+          to={"/dashboard/contact"}
+        >
           <button
             type="button"
             className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
-            Join Our Team
+            Mor Info
           </button>
+        </NavLink>
         </div>
       </div>
     </section>

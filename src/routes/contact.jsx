@@ -1,6 +1,7 @@
 import React from 'react'
 import { useForm , ValidationError} from '@formspree/react';
 import IndexPage from '.';
+import Footer from '../components/Footer';
 
 
 const Contact = () => {
@@ -170,8 +171,8 @@ const Contact = () => {
   </div>
   <hr className="mt-6" />
  
+  <Footer/>
 </div>
-
 
  
   )
