@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 function Review() {
   const reviews = [
     {
-      event: "Church Picnic 08/27/2023",
+      event: "https://static.wixstatic.com/media/593ea9_d66abce0b75c4c09a84243b2967122b3~mv2.png/v1/crop/x_0,y_0,w_1238,h_2076/fill/w_394,h_660,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/593ea9_d66abce0b75c4c09a84243b2967122b3~mv2.png",
       location: "Chicago, IL",
       date: "August 27, 2023",
       reviewText:
@@ -15,14 +15,14 @@ function Review() {
       author: "A.R.",
     },
     {
-      event: "Birthday party 6/19/2023",
+      event: "https://static.wixstatic.com/media/593ea9_cb1a267facdf46f482719bb4c01ba50d~mv2.jpeg/v1/fill/w_374,h_498,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/164EECDA-2F2D-4F30-81E5-ACD4F73BD0E4.jpeg",
       location: "Unknown",
       date: "June 19, 2023",
       reviewText: "A wonderful experience and numerous balloon designs to choose from. Very talented.",
       author: "B.C.",
     },
     {
-      event: "Birthday party  6/10/2023",
+      event: "https://static.wixstatic.com/media/593ea9_58d3cab1963549118d80c6c6a4fc0dd0~mv2.png/v1/fill/w_320,h_320,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/PhotoRoom_20230110_184014.png",
       location: "Unknown",
       date: "June 19, 2023",
       reviewText: "He was right on time, ready to go and make some creative balloons for the kids.  He was great .He was right on time, ready to go and made some creative balloons for the kids. He was great!",
@@ -30,7 +30,7 @@ function Review() {
 
     },
     {
-      event: "Birthday party 6/10/2023",
+      event: "https://static.wixstatic.com/media/593ea9_0b9a509006f1486baf660e62a0e7075b~mv2.png/v1/fill/w_391,h_534,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_6344.png",
       location: "Unknown",
       date: "June 10, 2023",
       reviewText:
@@ -38,14 +38,14 @@ function Review() {
       author: "C.J.",
     },
     {
-      event: "Christmas event for company event 12/2/22",
+      event: "https://static.wixstatic.com/media/593ea9_87b018ef4194402394139d3efea2d812~mv2.png/v1/fill/w_340,h_448,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/593ea9_87b018ef4194402394139d3efea2d812~mv2.png",
       location: "Unknown",
       date: "December 2, 2022",
       reviewText: "Very professional and rates are fair.",
       author: "A.M.",
     },
     {
-      event: "Dental Practice company party at bowling alley 10/23/22",
+      event: "https://static.wixstatic.com/media/593ea9_1e160c9313624be1bbc0ad530c7be4f9~mv2.png/v1/fill/w_325,h_406,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/593ea9_1e160c9313624be1bbc0ad530c7be4f9~mv2.png",
       location: "Unknown",
       date: "October 23, 2022",
       reviewText:
@@ -53,7 +53,7 @@ function Review() {
       author: "Kim",
     },
     {
-      event: "Library event for Palos Park Public Library 8/6/22",
+      event: "https://static.wixstatic.com/media/593ea9_3a31a4fe85c54f6baf9202a759a6d147~mv2.png/v1/fill/w_356,h_351,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_6335.png",
       location: "Unknown",
       date: "August 6, 2022",
       reviewText:
@@ -61,7 +61,7 @@ function Review() {
       author: "Emily",
     },
     {
-      event: "Prosthetics company picnic 7/16/22",
+      event: "https://static.wixstatic.com/media/593ea9_ca12b6d4bd7d49999fd7cc2d43fe6941~mv2.jpg/v1/fill/w_351,h_351,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/593ea9_ca12b6d4bd7d49999fd7cc2d43fe6941~mv2.jpg",
       location: "Unknown",
       date: "July 16, 2022",
       reviewText:
@@ -69,7 +69,7 @@ function Review() {
       author: "P.R.K.",
     },
     {
-      event: "Birthday Party for Erna G. 7/16/22, 'Cars' theme",
+      event: "https://static.wixstatic.com/media/593ea9_e07eb5363ce84ed39054a7d12f3bfe06~mv2.png/v1/fill/w_354,h_443,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/593ea9_e07eb5363ce84ed39054a7d12f3bfe06~mv2.png",
       location: "Unknown",
       date: "July 16, 2022",
       reviewText:
@@ -77,7 +77,7 @@ function Review() {
       author: "Unknown",
     },
     {
-      event: "Birthday party for Jacquelyn V. 5/21/22",
+      event: "https://static.wixstatic.com/media/593ea9_93e0414373dc4e7d8d845291da80ada3~mv2.png/v1/fill/w_343,h_455,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/593ea9_93e0414373dc4e7d8d845291da80ada3~mv2.png",
       location: "Unknown",
       date: "May 21, 2022",
       reviewText:
@@ -85,14 +85,14 @@ function Review() {
       author: "Unknown",
     },
     {
-      event: "National Tuba day for marching band Mucca Pazza 5/6/22",
+      event: "https://static.wixstatic.com/media/593ea9_1cf369dd585747ab98f2c037de9c9e32~mv2.png/v1/fill/w_341,h_448,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/593ea9_1cf369dd585747ab98f2c037de9c9e32~mv2.png",
       location: "Unknown",
       date: "May 6, 2022",
       reviewText: "A real pleasure to work with- would definitely use again. Thank you Sean!",
       author: "Unknown",
     },
     {
-      event: "Birthday party for Christine D. 3/13/22",
+      event: "https://static.wixstatic.com/media/593ea9_6395069d47844972953e1ee94e290aff~mv2.png/v1/fill/w_398,h_458,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/593ea9_6395069d47844972953e1ee94e290aff~mv2.png",
       location: "Unknown",
       date: "March 13, 2022",
       reviewText:
@@ -100,40 +100,36 @@ function Review() {
       author: "Unknown",
     },
     {
-      event: "Birthday party for Elizabeth S. 2/12/22, pirate theme",
+      event: "https://static.wixstatic.com/media/593ea9_c2425ad2b881472cac5df4a60758fe79~mv2.png/v1/fill/w_346,h_455,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/593ea9_c2425ad2b881472cac5df4a60758fe79~mv2.png",
       location: "Unknown",
       date: "February 12, 2022",
       reviewText:
         "The kids had a blast, and everyone",
-    }
-    // Add more reviews here as needed
+    },
   ];
   return (
 <>
 <IndexPage />
-    <div className="min-h-screen flex flex-col items-center justify-center bg-black">
-      <div className="max-w-4xl w-full p-4 md:p-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <ReviewC
-            imageUrl="https://picsum.photos/150"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum elit non ligula molestie."
-            author="John Doe"
-          />
-          <ReviewC
-            imageUrl="https://picsum.photos/150"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum elit non ligula molestie."
-            author="Jane Smith"
-          />
+    <div className="min-h-screen flex flex-col items-center justify-center bg-white">
+      <div className="w-full  p-4 md:p-8">
+        <div className="grid grid-cols-1 gap-8">
+        
+          {
+            reviews.map((review,index)=>(
+              <ReviewC  review={review} />
+            ) )
+          }
+
         </div>
       </div>
     </div>
 
-        <div className="flex justify-center items-center min-h-screen bg-gray-300">
+        {/* <div className="flex justify-center items-center min-h-screen bg-white">
     <div className="max-w-4xl mx-auto mt-8 px-4">
       <h2 className="text-3xl font-semibold text-center mb-8">Customer Reviews and Feedback</h2>
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-10 m-4 md:grid-cols-2">
         {reviews.map((review, index) => (
-          <div key={index} className=" bg-gray-400 rounded-lg overflow-hidden shadow-md">
+          <div key={index} className=" bg-gray-200 rounded-lg overflow-hidden shadow-md">
             <div className="p-6">
               <p className="italic text-sm text-gray-600 mb-2">
                 <strong>{review.event}</strong> - Reviewed on {review.date} - From {review.location}
@@ -147,7 +143,7 @@ function Review() {
     </div>
   
       
-    </div>
+    </div> */}
 <Footer />
 </>
   )

@@ -41,8 +41,13 @@ function Videos() {
     
     <>
     <IndexPage />
+     
    
     <div className="container mx-auto px-4 py-8">
+      <div className='flex m-4 p-3 w-3/4 items-center mx-auto'>
+        <p className='text-2xl text-center'>
+With only a couple days to prepare, I was interviewed on the Barstool Sports podcast "The Dog Walk".  Of course, I wish I had done it differently, but it was an exciting experience nonetheless!</p>
+      </div>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
       {videos.map((videoUrl, index) => (
         <div key={index} className="overflow-hidden rounded-lg">

@@ -18,9 +18,9 @@ function Home() {
 
           {/* Paragraph Column (Left on larger screens) */}
           <div className="order-2 md:order-1 flex justify-center md:justify-end items-center"> {/* Flex properties for horizontal and vertical centering */}
-            <p className="text-lg text-gray-800 leading-relaxed text-center md:text-left">
+            <p className="text-xl text-gray-800 leading-relaxed text-center md:text-left">
               {/* Centered text vertically and aligned to center (text-center) on mobile, aligned to left (text-left) on medium screens and above */}
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum elit non ligula molestie, vel aliquet urna ultrices. Sed nec nisi ut arcu eleifend consequat."
+              "Formally trained with oil painting technique in 2008, I have adapted to the face paint medium to deliver eye catching variations of popular designs.I consciously use high quality, hypo allergenic products, and am willing to tailor the designs I offer to match the theme of your event. I look forward to bringing joy to you and your guests!"
             </p>
           </div>
 

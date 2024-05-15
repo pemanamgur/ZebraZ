@@ -13,9 +13,8 @@ function HomeImage() {
 
           {/* Paragraph Column (Right on larger screens) */}
           <div className="order-1 md:order-2 flex flex-col justify-center"> {/* Added flex properties */}
-            <p className="text-lg text-gray-800 leading-relaxed text-center md:text-left"> {/* Centered text vertically and aligned to center (text-center) on mobile, aligned to left (text-left) on medium screens and above */}
-             " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum elit non ligula
-              molestie, vel aliquet urna ultrices. Sed nec nisi ut arcu eleifend consequat."
+            <p className="text-xl text-gray-800 leading-relaxed text-center md:text-left"> {/* Centered text vertically and aligned to center (text-center) on mobile, aligned to left (text-left) on medium screens and above */}
+             " I make balloon animals with the intention of making a visual spectacle that will impress my own self, and ultimately the guests at your event.I have been a balloon artist since March 2016, dedicating myself to making it my expertise.My approach aims to unify details alluding to realism and abstract concepts with cartoon-like aesthetics typical to balloon art, making it a unique experience"
             </p>
           </div>
 

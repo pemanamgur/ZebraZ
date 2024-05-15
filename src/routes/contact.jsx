@@ -14,8 +14,9 @@ const Contact = () => {
  
 
 
+
   <div>
-   <IndexPage />
+  <IndexPage/>
   <div className="mx-auto max-w-7xl px-4">
     <div className="flex flex-col space-y-8 pb-10 pt-12 md:pt-24">
       <div className="mx-auto max-w-max rounded-full border bg-gray-50 p-1 px-3">
@@ -170,7 +171,11 @@ const Contact = () => {
     </div>
   </div>
   <hr className="mt-6" />
- 
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.811632089697!2d85.34242557530125!3d27.72310167617351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1965f22cc503%3A0xae2e5f855870db89!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1715790998366!5m2!1sen!2snp" width="95%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+  className='ml-8 mb-8'
+  ></iframe>
+  
+
   <Footer/>
 </div>
 

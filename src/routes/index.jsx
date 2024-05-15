@@ -39,26 +39,11 @@ export default function IndexPage() {
    ]
 
   return (
-    // <div>
-    //   <h1>This is the index page</h1>
-    //   <div>
-    //     <ul>
-    //       <li><Link to="/sign-up">Sign Up</Link></li>
-    //       <li><Link to="/sign-in">Sign In</Link></li>
-    //       <li><Link to="/contact">Contact</Link></li>
-    //       <li><Link to="/dashboard">Dashboard</Link></li>
-    //       <li><Link to="/dashboard/photos">Photos</Link></li>
-    //       <li><Link to="/dashboard/pricing">Pricing</Link></li>
-    //       <li><Link to="/dashboard/videos">Videos</Link></li>
-    //       <li><Link to="/dashboard/home">Home</Link></li>
-    //       <li><Link to="/dashboard/review">Review</Link></li>
-    //     </ul>
-    //   </div>
-    // </div>
+  
     <>
 
     <main>
-     <nav className='flex justify-between items-center px-8 py-6 lg:px-24'>
+     <nav className='flex justify-between bg-gray-200 text-black items-center px-8 py-6 lg:px-24'>
         <div className='flex items-center gap-4'>
       <section className='flex items-center gap-4'>
          {/* menu */}
@@ -75,7 +60,7 @@ export default function IndexPage() {
             navLinks.map((link,index)=>(
                 <Link
                 key={index}
-                to={link.href} className= 'hidden text-gray-600 lg:block hover:text-black'>{link.label}</Link>
+                to={link.href} className= 'hidden text-black lg:block hover:text-black'>{link.label}</Link>
             ))
          }
 
@@ -97,7 +82,7 @@ export default function IndexPage() {
                 to={link.href} className='font-bold'>{link.label}</Link>
             ))
          }
-
+    
 
            </section>
          </div>
